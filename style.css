@@ -8,6 +8,9 @@
   scroll-padding-top: 4rem;
   color: #212121;
 }
+button {
+  border: none;
+}
 body {
   background-color: #d9d9d9;
 }
@@ -104,6 +107,16 @@ body {
   padding: 15px 60px;
   border-radius: 8px;
 }
+.boxattrib1 {
+  text-align: center;
+  display: inline-block;
+  width: 30px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  padding: 15px 60px;
+  border-radius: 8px;
+  background-color: #d9d9d9;
+}
 #block2 {
   min-height: 1080px;
   background: white;
@@ -146,12 +159,38 @@ body {
   text-align: justify;
 }
 #block3 {
-  min-height: 2160px;
+  min-height: 1080px;
+  padding-bottom: 200px;
+}
+.proj {
+  background: #000;
+  height: 350px;
+  width: 900px;
+  margin: auto;
+  margin-top: 200px;
+  border-radius: 10px;
+  position: relative;
+  filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.107));
+}
+.tech {
+  width: 40%;
+  height: 100%;
+  background: white;
+  border-radius: 10px 0px 0px 10px;
+}
+.tech-2 {
+  position: absolute;
+  right: 0px;
+  width: 40%;
+  height: 100%;
+  background: white;
+  border-radius: 0px 10px 10px 0px;
 }
 #block4 {
   min-height: 1080px;
   background: white;
 }
+
 .form {
   padding: 3rem;
   min-height: 600px;
@@ -257,7 +296,7 @@ footer {
 }
 /* DESKTOP AND LAPTOP */
 
-@media (min-width: 900px) {
+@media (min-width: 1300px) {
   .l1 {
     display: flex;
   }
@@ -281,12 +320,26 @@ footer {
 
 /* FOR MOBILE/TABLET */
 
-@media (max-width: 899px) {
+@media (max-width: 1299px) {
   .leftalign {
     width: fit-content;
     position: relative;
     left: 50%;
     transform: translateX(-50%);
+  }
+  .tech {
+    width: 40%;
+    height: 100%;
+    background: white;
+    border-radius: 10px 0px 0px 10px;
+  }
+  .tech-2 {
+    position: absolute;
+    right: 0px;
+    width: 40%;
+    height: 100%;
+    background: white;
+    border-radius: 0px 10px 10px 0px;
   }
   .l1 {
     display: flex;
