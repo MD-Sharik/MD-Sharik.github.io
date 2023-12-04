@@ -8,7 +8,6 @@
   </head>
   <body>
     <header class="header">
-      <!-- // this is a Navigation -->
       <div class="main-nav">
         <div class="minip">
           <img src="assets/mini.png" class="minipic" alt="img" />
@@ -25,10 +24,12 @@
     <!-- /first block (Intro) -->
     <div id="block1">
       <div class="intro">
-        <h1 id="t1">HEY, I'M MD SHARIK</h1>
+        <h1 id="t1" class="anim-typewriter">HEY, I'M MD SHARIK</h1>
         <h3 id="t2">Web Developer - Hybrid App Developer</h3>
         <h3 id="t2">UI/UX Designer - 3d designer</h3>
-        <button id="abbtn" href="#block2">ABOUT ME</button>
+        <a href="#block2" style="color: white; text-decoration: none"
+          ><button id="abbtn">ABOUT ME</button></a
+        >
       </div>
     </div>
 
@@ -37,6 +38,7 @@
       <h2 id="title">ABOUT ME</h2>
       <div class="container">
         <div class="aboutme">
+          <h2 id="title4">About Me</h2>
           <p>
             Front-End Enthusiast, driven by an insatiable passion for crafting
             user-centric experiences. My expertise lies in seamlessly bridging
@@ -53,6 +55,7 @@
           <a id="b" class="pjbtn" href="#block3">PROJECTS</a>
         </div>
         <div class="leftalign">
+          <h2 id="title3">Skills</h2>
           <div class="l1">
             <div class="boxattrib" id="b1">HTML</div>
             <div class="boxattrib" id="b2">CSS</div>
@@ -86,17 +89,25 @@
       <div class="container2">
         <div class="proj">
           <div class="tech">
-            <h3 class="title2">Proj1</h3>
+            <h3 class="title2">Weather App</h3>
             <div class="techstack">
               <div class="boxattrib1">HTML</div>
               <div class="boxattrib1">CSS</div>
-              <div class="boxattrib1">JAVA</div>
-              <div class="boxattrib1">TAILWIND</div>
-              <button class="boxattrib1 pjbtn">Preview</button>
-              <button class="boxattrib1 pjbtn">Source</button>
+              <div class="boxattrib1">JS</div>
+              <div class="boxattrib1">BOOTSTRAP</div>
+              <a href="https://md-sharik.github.io/Weather-app/" target="_blank"
+                ><button class="boxattrib1 pjbtn">Preview</button></a
+              >
+              <a
+                style="display: inline-block"
+                href="https://github.com/MD-Sharik/Weather-app"
+                ><button class="boxattrib1 pjbtn">Source</button></a
+              >
             </div>
           </div>
-          <div class="prev"></div>
+          <div class="prev">
+            <img class="previmg" src="assets\weather.png" alt="weather" />
+          </div>
         </div>
         <div class="proj reversed">
           <div class="tech">
